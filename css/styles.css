@@ -34,14 +34,14 @@ input[type=number]{
     border-radius: 5px;
     width: 15%;
 }
-input[type=submit]{
+button{
     background-color: darkgray;
     padding: 10px;
     color: #fff;
     width: 225px;
     border-radius: 5px;
 }
-input[type=submit]:hover{
+button:hover{
     background-color: #ccc;
     color: #fff;
 }
