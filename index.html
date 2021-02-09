@@ -21,22 +21,27 @@
     </header>
     <main>
         <fieldset>
-            <form id="bacform" name="bacform">
+            <form>
                 <div><label for="beer">Number of Beers Consumed:</label><br>
                     <input type="number" name="beer" id="beer" min="0">
-                    <p id="beerounces">One beer has 0.54 oz of alcohol.</p></div>
+                    <p id="totalbeer">One beer has 0.54 oz of alcohol.</p></div>
+
                 <div><label for="wine">Glasses of Wine Consumed:</label><br>
                     <input type="number" name="wine" id="wine" min="0">
-                    <p id="wineounces">One glass of wine has 0.60 oz of alcohol.</p></div>
+                    <p id="totalwine">One glass of wine has 0.60 oz of alcohol.</p></div>
+
                 <div><label for="shots">Number of Shots Consumed:</label><br>
                     <input type="number" name="shots" id="shots" min="0">
-                    <p id="shotsounces">One shot of liquor has 0.60 oz of alcohol.</p></div>
+                    <p id="totalshots">One shot of liquor has 0.60 oz of alcohol.</p></div>
+
                 <div><label for="weight">Your Weight in Pounds:</label><br>
                     <input type="number" name="weight" id="weight" min="0"></div>
+
                 <div><label for="hours">Hours Since Your First Drink:</label><br>
                     <input type="number" name="hours" id="hours" min="0">
                     <p id="totalbac">Calculate Your Total BAC</p></div>
-                <button name="submit" id="submit">Calculate My BAC</button>
+
+                <button>Calculate My BAC</button>
             </form>
         </fieldset>
     </main>

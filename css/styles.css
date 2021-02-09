@@ -24,7 +24,7 @@ fieldset{
 div{
     padding: .5em;
 }
-#beerounces, #wineounces, #shotsounces, #totalbac{
+p{
     float: right;
     margin-right: 20%;
 }
